@@ -85,7 +85,7 @@
 // N{6}
 
 // // Bir kilogram konfet narxi berilgan (haqiqiy son)
-// const pricePerKg = 1.2; 
+// const pricePerKg = 1.2;
 // // Narxi istalgan haqiqiy son bo'lishi mumkin
 
 // // Umumiy narx
@@ -142,7 +142,6 @@
 // const a = +prompt("Marhamat qilib birinchi qiymatni kiriting (a):");
 // const b = +prompt("Marhamat qilib ikkinchi qiymatni kiriting (b):");
 
-
 // // Barcha butun sonlar kvadratlarining yig'indisini saqlash uchun o'zgaruvchi
 // let jamQiyYig = 0;
 
@@ -173,11 +172,25 @@
 
 // N{11}
 
-let n = +prompt("Marhamat qilib (n)) ni kiriting: ");
-let S = 1;
-for (let i = 1; i <= n; i++) {
-    S = S + Math.pow(n + i, 2);
-    console.log(i);
-}
-console.log("Yig'indi:", S);
+// function calculateSum(n) {
+//   let sum = 0;
 
+//   for (let i = 1; i <= 2 * n; i++) {
+//     sum += i * i;
+//   }
+
+//   return sum;
+// }
+
+// const n = +prompt("Marhamat qilib qiymatni kiriting (n):");
+// const result = calculateSum(n);
+// console.log(`Natija: ${result}`);
+
+// N{12}
+
+// const n = +prompt("Marhamat qilib qiymatni kiriting (n):");
+// let S = 1;
+// for (let i = 1.1; i <= n + 0.1; i += 0.1) {
+//   S *= i;
+// }
+// console.log("Ko'paytma:", S);
