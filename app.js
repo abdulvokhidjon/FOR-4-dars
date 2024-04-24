@@ -1,12 +1,12 @@
-FOR
-N{1}
-let k = +prompt("Iltimos, k sonini kiriting:");
-let n = +prompt("Iltimos, n sonini kiriting:");
+// FOR
+// N{1}
+// let k = +prompt("Iltimos, k sonini kiriting:");
+// let n = +prompt("Iltimos, n sonini kiriting:");
 
-// For tsikli orqali k sonini n marta chiqaramiz
-for (let i = 0; i < n; i++) {
-    console.log(k);
-}
+// // For tsikli orqali k sonini n marta chiqaramiz
+// for (let i = 0; i < n; i++) {
+//     console.log(k);
+// }
 
 // N{2}
 // const a = +prompt("Marhamat qilib birinchi qiymatni kiriting (a):");
@@ -171,4 +171,13 @@ for (let i = 0; i < n; i++) {
 // // Natijani chiqarish
 // console.log("Yig'indisi: " + yig);
 
+// N{11}
+
+let n = +prompt("Marhamat qilib (n)) ni kiriting: ");
+let S = 1;
+for (let i = 1; i <= n; i++) {
+    S = S + Math.pow(n + i, 2);
+    console.log(i);
+}
+console.log("Yig'indi:", S);
 
